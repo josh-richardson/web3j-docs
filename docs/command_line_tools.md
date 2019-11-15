@@ -279,6 +279,19 @@ Transaction hash: 0xb00afc5c2bb92a76d03e17bd3a0175b80609e877cb124c02d19000d52939
 Mined block number: 1849039
 ```
 
+Auditing Tools:
+------------
+
+Web3j is able to audit smart contracts for common issues and vulnerabilities. This functionality uses static code analysis to find flaws. 
+
+To audit a smart contract:
+
+``` bash
+$ web3j audit <path to contract file>
+```
+
+This functionality is provided by [SmartCheck](https://github.com/smartdec/smartcheck).
+
 
 Solidity smart contract wrapper generator
 -----------------------------------------
